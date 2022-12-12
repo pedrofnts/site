@@ -59,7 +59,7 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Olá! Meu nome é Pedro Fontes. Sou estudante de Análise e Desenvolvimento de Sistemas e entusiasta de tecnologia. Desenvolvo sites em WordPress há alguns anos, e em 2022 resolvi iniciar uma transição de carreira para a área de programação. Desde então, são horas de estudo diárias, rumo à construção de uma carreira sólida, fazendo o que mais gosto.",
+  bio: "Olá! Meu nome é Pedro Fontes. Sou um desenvolvedor com foco em JavaScript e TypeScript. Sou um profissional autodidata, com foco em resultados, e apaixonado por desenvolver e criar novas coisas. Encontrei a programação como um hobby, e resolvi fazer dela o meu futuro. Hoje, é criando códigos que sinto que encontrei o meu verdadeiro propósito.",
   skills: {
     proficientWith: [
       "javascript",
