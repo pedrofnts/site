@@ -70,7 +70,7 @@ export const info = {
       "koa",
       "react",
     ],
-    exposedTo: ["mongodb", "mysql", "postgresql", "git", "aws"],
+    exposedTo: ["mongodb", "mysql", "postgresql", "git", "aws", "docker"],
   },
   hobbies: [
     {
