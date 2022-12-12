@@ -35,7 +35,7 @@ export default function About() {
             {firstName}
             {info.lastName.toLowerCase()} $
           </span>{" "}
-          cd skills/stacks
+          cd stacks/skills
         </p>
         <p>
           <span style={{ color: info.baseColor }}>
