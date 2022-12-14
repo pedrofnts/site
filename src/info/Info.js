@@ -86,8 +86,8 @@ export const info = {
       emoji: "🥳",
     },
     {
-      label: "futebol",
-      emoji: "⚽",
+      label: "academia",
+      emoji: "🏋🏻",
     },
     // Same as above, change the emojis to match / relate to your hobbies or interests.
     // You can also remove the emojis if you'd like, I just think they look cute :P
