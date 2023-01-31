@@ -22,6 +22,11 @@ const links = [
     to: "/",
     active: "home",
   },
+  {
+    name: "Currículo",
+    to: "https://pedrofontes.notion.site/Pedro-Fontes-695c8f564b90469a9bf30da79642ea19",
+    active: "curriculo",
+  },
 ];
 
 export default function Navbar({ darkMode, handleClick }) {
