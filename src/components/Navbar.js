@@ -22,6 +22,11 @@ const links = [
     to: "/",
     active: "home",
   },
+  {
+    name: "Currículo",
+    to: "https://pedrofontes.notion.site/Pedro-Fontes-695c8f564b90469a9bf30da79642ea19",
+    active: "curriculo",
+  },
 ];
 
 export default function Navbar({ darkMode, handleClick }) {
@@ -50,12 +55,12 @@ export default function Navbar({ darkMode, handleClick }) {
             className={link.active === active && !link.type && Style.active}
             sx={{ borderImageSource: info.gradient }}
           >
-            <Link to={link.to} onClick={() => setActive(link.active)}>
+            <a href={link.to} onClick={() => setActive(link.active)}>
               {!link.type && (
                 <p style={{ paddingBottom: "0.5rem" }}>{link.name}</p>
               )}
               {link.type && <h1>{link.name}</h1>}
-            </Link>
+            </a>
           </Box>
         ))}
         <li>
