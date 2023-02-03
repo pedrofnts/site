@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Style from "./Navbar.module.scss";
 import Toggler from "./home/Toggler";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Box } from "@mui/material";
 import { info } from "../info/Info";
 
@@ -21,11 +21,6 @@ const links = [
     type: "initials",
     to: "/",
     active: "home",
-  },
-  {
-    name: "Currículo",
-    to: "https://pedrofontes.notion.site/Pedro-Fontes-695c8f564b90469a9bf30da79642ea19",
-    active: "curriculo",
   },
 ];
 
@@ -55,12 +50,12 @@ export default function Navbar({ darkMode, handleClick }) {
             className={link.active === active && !link.type && Style.active}
             sx={{ borderImageSource: info.gradient }}
           >
-            <a href={link.to} onClick={() => setActive(link.active)}>
+            <Link to={link.to} onClick={() => setActive(link.active)}>
               {!link.type && (
                 <p style={{ paddingBottom: "0.5rem" }}>{link.name}</p>
               )}
               {link.type && <h1>{link.name}</h1>}
-            </a>
+            </Link>
           </Box>
         ))}
         <li>
